@@ -51,9 +51,9 @@ abstract class BaseFlags {
     public static final boolean LAUNCHER3_BACKPORT_SHORTCUTS = false;
 
     // Feature flag to enable moving the QSB on the 0th screen of the workspace.
-    public static final boolean QSB_ON_FIRST_SCREEN = true;
+    public static final boolean QSB_ON_FIRST_SCREEN = false;
     // When enabled the all-apps icon is not added to the hotseat.
-    public static final boolean NO_ALL_APPS_ICON = true;
+    public static final boolean NO_ALL_APPS_ICON = false;
     // When enabled fling down gesture on the first workspace triggers search.
     public static final boolean PULLDOWN_SEARCH = false;
     // When enabled the status bar may show dark icons based on the top of the wallpaper.
@@ -65,7 +65,7 @@ abstract class BaseFlags {
     // When enabled, app discovery will be enabled if service is implemented
     public static final boolean DISCOVERY_ENABLED = false;
     // When enabled, the qsb will be moved to the hotseat.
-    public static final boolean QSB_IN_HOTSEAT = true;
+    public static final boolean QSB_IN_HOTSEAT = false;
 
     // Features to control Launcher3Go behavior
     public static final boolean GO_DISABLE_WIDGETS = false;
